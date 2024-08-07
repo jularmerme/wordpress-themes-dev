@@ -14,3 +14,9 @@
 
  /** Utils */
  require 'inc/utils.php';
+
+ /** Init */
+ require 'inc/init.php';
+
+ /*** Modify WP Core */
+ require 'inc/modify.php';

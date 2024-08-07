@@ -5,7 +5,8 @@
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
 					<p>
-						&copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+						&copy; copyright <?php echo date('Y'); ?> WordPress Theme created by Julian Mercado. <br>
+						HTML & CSS designed and developed by <a href="https://www.themesine.com/" target="_blank" >themesine</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->

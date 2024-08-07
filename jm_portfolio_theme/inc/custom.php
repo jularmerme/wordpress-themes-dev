@@ -28,3 +28,17 @@
 	// ));
 	
 }
+
+// Remove default editor
+add_action('init', 'init_remove_support', 100);
+
+function init_remove_support() {
+	remove_post_type_support('post', 'editor');
+	remove_post_type_support('page', 'editor');
+}
+
+// Add feature image to pages
+add_theme_support('post-thumbnails', array('page'));
+
+// Add custom image size
+add_image_size('portfolio', 370, 220, true);

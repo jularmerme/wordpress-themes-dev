@@ -22,6 +22,7 @@
     }
 
     include "$theme_dir/pages/partials/header.php";
+    include "$theme_dir/pages/partials/nav.php";
     include "$theme_dir/pages/$pagename.php";
     include "$theme_dir/pages/partials/footer.php";
   }
